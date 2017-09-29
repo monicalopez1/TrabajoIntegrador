@@ -20,9 +20,9 @@ public class ControllerMenor {
     }
     public void initView(){
         view_menor.jtf_num1.setText(String.valueOf(model_menor.getNum1()));
-        view_menor.jtf_num2.setText(String.valueOf(model_menor.getNum1()));
-        view_menor.jtf_num3.setText(String.valueOf(model_menor.getNum1()));
-        view_menor.jtf_menor.setText(String.valueOf(model_menor.getNum1()));
+        view_menor.jtf_num2.setText(String.valueOf(model_menor.getNum2()));
+        view_menor.jtf_num3.setText(String.valueOf(model_menor.getNum3()));
+        view_menor.jtf_menor.setText(String.valueOf(model_menor.geMenor()));
         view_menor.setVisible(true);
     }
     public void jbtn_menor_click(){
