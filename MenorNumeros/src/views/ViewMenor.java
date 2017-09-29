@@ -27,19 +27,115 @@ public class ViewMenor extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jl_num1 = new javax.swing.JLabel();
+        jl_num2 = new javax.swing.JLabel();
+        jl_num3 = new javax.swing.JLabel();
+        jl_menor = new javax.swing.JLabel();
+        jtf_num1 = new javax.swing.JTextField();
+        jtf_num2 = new javax.swing.JTextField();
+        jtf_num3 = new javax.swing.JTextField();
+        jtf_menor = new javax.swing.JTextField();
+        jbtn_menor = new javax.swing.JButton();
+
+        jl_num1.setText("Num1");
+
+        jl_num2.setText("Num2");
+
+        jl_num3.setText("Num3");
+
+        jl_menor.setText("Menor");
+
+        jtf_num1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtf_num1ActionPerformed(evt);
+            }
+        });
+
+        jtf_num2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtf_num2ActionPerformed(evt);
+            }
+        });
+
+        jtf_menor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtf_menorActionPerformed(evt);
+            }
+        });
+
+        jbtn_menor.setText("Menor");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(83, 83, 83)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jl_num1)
+                            .addComponent(jl_num2)
+                            .addComponent(jl_num3)
+                            .addComponent(jl_menor))
+                        .addGap(24, 24, 24)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jtf_num1)
+                            .addComponent(jtf_num2)
+                            .addComponent(jtf_num3)
+                            .addComponent(jtf_menor, javax.swing.GroupLayout.DEFAULT_SIZE, 85, Short.MAX_VALUE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(108, 108, 108)
+                        .addComponent(jbtn_menor)))
+                .addContainerGap(178, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(67, 67, 67)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jl_num1)
+                    .addComponent(jtf_num1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jl_num2)
+                    .addComponent(jtf_num2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jl_num3)
+                    .addComponent(jtf_num3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jl_menor)
+                    .addComponent(jtf_menor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(jbtn_menor)
+                .addContainerGap(65, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jtf_num1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtf_num1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtf_num1ActionPerformed
+
+    private void jtf_num2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtf_num2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtf_num2ActionPerformed
+
+    private void jtf_menorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtf_menorActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtf_menorActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JButton jbtn_menor;
+    public javax.swing.JLabel jl_menor;
+    public javax.swing.JLabel jl_num1;
+    public javax.swing.JLabel jl_num2;
+    public javax.swing.JLabel jl_num3;
+    public javax.swing.JTextField jtf_menor;
+    public javax.swing.JTextField jtf_num1;
+    public javax.swing.JTextField jtf_num2;
+    public javax.swing.JTextField jtf_num3;
     // End of variables declaration//GEN-END:variables
 }
