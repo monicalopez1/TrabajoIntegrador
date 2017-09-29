@@ -22,7 +22,7 @@ public class ControllerMenor {
         view_menor.jtf_num1.setText(String.valueOf(model_menor.getNum1()));
         view_menor.jtf_num2.setText(String.valueOf(model_menor.getNum2()));
         view_menor.jtf_num3.setText(String.valueOf(model_menor.getNum3()));
-        view_menor.jtf_menor.setText(String.valueOf(model_menor.geMenor()));
+        view_menor.jtf_menor.setText(String.valueOf(model_menor.getMenor()));
         view_menor.setVisible(true);
     }
     public void jbtn_menor_click(){
@@ -30,7 +30,7 @@ public class ControllerMenor {
         model_menor.setNum2(Integer.parseInt(view_menor.jtf_num2.getText())):
         model_menor.setNum3(Integer.parseInt(view_menor.jtf_num3.getText())):
         model_menor.menor();
-        view_menor.jtf_menor.setText(String.valueOf(model_mayor.get Menor()));
+        view_menor.jtf_menor.setText(String.valueOf(model_mayor.getMenor()));
     }
 }
 
