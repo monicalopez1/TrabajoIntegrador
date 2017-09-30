@@ -31,7 +31,9 @@ public class ControllerMenor {
         model_menor.setNum2(Integer.parseInt(view_menor.jtf_num2.getText()));
         model_menor.setNum3(Integer.parseInt(view_menor.jtf_num3.getText()));
         model_menor.menor();
-        view_menor.jtf_menor.setText(String.valueOf(model_menor.getMenor()));
-    }
+
 }
+}
+        
+    
 
